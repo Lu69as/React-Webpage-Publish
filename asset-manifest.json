@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.151f2ccd.css",
-    "main.js": "/static/js/main.870c5584.js",
+    "main.css": "/static/css/main.f3d064c8.css",
+    "main.js": "/static/js/main.1e832fa2.js",
     "static/js/787.3859b098.chunk.js": "/static/js/787.3859b098.chunk.js",
     "static/media/me.jpg": "/static/media/me.3e88326f466032f99bc5.jpg",
     "static/media/alyx-min.png": "/static/media/alyx-min.9d4fda6488e76a180275.png",
@@ -25,27 +25,27 @@
     "static/media/honda-min.png": "/static/media/honda-min.3bf890060e020f16edc2.png",
     "static/media/dodge-min.png": "/static/media/dodge-min.1a594aaea9fceed586e8.png",
     "static/media/mclaren-min.png": "/static/media/mclaren-min.9ddda54f1004e7f1478f.png",
-    "static/media/education-hobbies.svg": "/static/media/education-hobbies.0101b89c300dc630781c243a2c3e3b4c.svg",
-    "static/media/education-hobbies2.svg": "/static/media/education-hobbies2.4d202179d611d6b6bb72da5adb22e9c1.svg",
-    "static/media/header-experience.svg": "/static/media/header-experience.a8e37774c5ae02734b26e280cb721eee.svg",
-    "static/media/header-experience2.svg": "/static/media/header-experience2.dd0dc076a0f8f43f03d7b0cd8c98c336.svg",
-    "static/media/hobbies-footer.svg": "/static/media/hobbies-footer.e799391d2201dea4975cdb91fe1b1cde.svg",
-    "static/media/work-education.svg": "/static/media/work-education.c083551f19f8f6bdcce3178964e9f7b5.svg",
+    "static/media/hobbies-footer.svg": "/static/media/hobbies-footer.417e9e65414bc7bcd913e8950243fe9a.svg",
+    "static/media/experience-work2.svg": "/static/media/experience-work2.b0fa0595ddc9f52f1d00a03c2b836118.svg",
+    "static/media/experience-work.svg": "/static/media/experience-work.42a12f1d74a83fe3005534fbd1d1c7f1.svg",
+    "static/media/education-hobbies.svg": "/static/media/education-hobbies.66013fc1ad9e79274c9a471750ba788d.svg",
+    "static/media/education-hobbies2.svg": "/static/media/education-hobbies2.5c07919f2cb9f9d26a8f31bb0b700869.svg",
     "static/media/spatter5.svg": "/static/media/spatter5.e0c00ff3ea4f531cc8f3.svg",
-    "static/media/experience-work.svg": "/static/media/experience-work.c1073672e36a199f0aa58172e3217b28.svg",
     "static/media/spatter4.svg": "/static/media/spatter4.97a230adeb15614a0359.svg",
-    "static/media/work-education2.svg": "/static/media/work-education2.420b11f01ef315c69e9cab6a98d8a642.svg",
+    "static/media/work-education.svg": "/static/media/work-education.9c0a26cfe556cb686502b74768fc3ab6.svg",
+    "static/media/header-experience.svg": "/static/media/header-experience.e9a8e48836a92c9624fccd70c21909bc.svg",
     "static/media/spatter2.svg": "/static/media/spatter2.87e6352502f7a60a2fbf.svg",
     "static/media/spatter3.svg": "/static/media/spatter3.81a574295a35a681ec10.svg",
-    "static/media/experience-work2.svg": "/static/media/experience-work2.b47a7373c9a6be6c523530c94fdcc609.svg",
     "static/media/spatter1.svg": "/static/media/spatter1.b8eefba23e5a1b93fa4b.svg",
+    "static/media/work-education2.svg": "/static/media/work-education2.19c33092e084fff17ec18a0baaa4684d.svg",
+    "static/media/header-experience2.svg": "/static/media/header-experience2.c98a5506dfe168fc96930bf35f0d4d08.svg",
     "index.html": "/index.html",
-    "main.151f2ccd.css.map": "/static/css/main.151f2ccd.css.map",
-    "main.870c5584.js.map": "/static/js/main.870c5584.js.map",
+    "main.f3d064c8.css.map": "/static/css/main.f3d064c8.css.map",
+    "main.1e832fa2.js.map": "/static/js/main.1e832fa2.js.map",
     "787.3859b098.chunk.js.map": "/static/js/787.3859b098.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.151f2ccd.css",
-    "static/js/main.870c5584.js"
+    "static/css/main.f3d064c8.css",
+    "static/js/main.1e832fa2.js"
   ]
 }
