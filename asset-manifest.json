@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.10b71063.css",
-    "main.js": "/static/js/main.a05996a5.js",
+    "main.css": "/static/css/main.387b17b2.css",
+    "main.js": "/static/js/main.743c0376.js",
     "static/js/787.3859b098.chunk.js": "/static/js/787.3859b098.chunk.js",
     "static/media/me.jpg": "/static/media/me.3e88326f466032f99bc5.jpg",
     "static/media/alyx-min.png": "/static/media/alyx-min.9d4fda6488e76a180275.png",
@@ -15,12 +15,16 @@
     "static/media/norris-min.png": "/static/media/norris-min.b1ab5241bf901fc0864c.png",
     "static/media/iracing-min.png": "/static/media/iracing-min.4dbb33db3281f83d8d33.png",
     "static/media/british-flag-min.png": "/static/media/british-flag-min.2bc4124b6597a6e258aa.png",
+    "static/media/wiki-min.png": "/static/media/wiki-min.aba56dfc274326e194eb.png",
+    "static/media/react-min.png": "/static/media/react-min.ed5433e1e728c9fb9874.png",
     "static/media/glemmen.jpg": "/static/media/glemmen.144c0bf8100786eecd4e.jpg",
+    "static/media/mysql-min.png": "/static/media/mysql-min.cb5a84ccb47582d9df06.png",
     "static/media/german-flag-min.png": "/static/media/german-flag-min.b591721d87f89dea48f6.png",
     "static/media/nsx-min.png": "/static/media/nsx-min.95ed6c78357410fd23bd.png",
     "static/media/challenger-min.png": "/static/media/challenger-min.cc459fc473c01ed4148c.png",
     "static/media/Borge.jpg": "/static/media/Borge.b1bcd48ce3f83eb0ad8d.jpg",
     "static/media/supra-min.png": "/static/media/supra-min.3216f6658b2badf9dd87.png",
+    "static/media/scss-min.png": "/static/media/scss-min.9e717c31b2fb0338909c.png",
     "static/media/spanish-flag-min.png": "/static/media/spanish-flag-min.61a07dbbf35a6d8f3581.png",
     "static/media/tryggheim.jpg": "/static/media/tryggheim.9c4b8727d147e108c6f7.jpg",
     "static/media/honda-min.png": "/static/media/honda-min.3bf890060e020f16edc2.png",
@@ -41,12 +45,12 @@
     "static/media/work-education2.svg": "/static/media/work-education2.19c33092e084fff17ec18a0baaa4684d.svg",
     "static/media/header-experience2.svg": "/static/media/header-experience2.c98a5506dfe168fc96930bf35f0d4d08.svg",
     "index.html": "/index.html",
-    "main.10b71063.css.map": "/static/css/main.10b71063.css.map",
-    "main.a05996a5.js.map": "/static/js/main.a05996a5.js.map",
+    "main.387b17b2.css.map": "/static/css/main.387b17b2.css.map",
+    "main.743c0376.js.map": "/static/js/main.743c0376.js.map",
     "787.3859b098.chunk.js.map": "/static/js/787.3859b098.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10b71063.css",
-    "static/js/main.a05996a5.js"
+    "static/css/main.387b17b2.css",
+    "static/js/main.743c0376.js"
   ]
 }
