@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.bff6e119.css",
-    "main.js": "/static/js/main.4fd7dec0.js",
+    "main.css": "/static/css/main.f9979c32.css",
+    "main.js": "/static/js/main.54875cd7.js",
     "static/js/787.3859b098.chunk.js": "/static/js/787.3859b098.chunk.js",
+    "static/media/alonso-min.png": "/static/media/alonso-min.4092ea34f9a08e721d21.png",
+    "static/media/norris-min.png": "/static/media/norris-min.8fbbd0f30979736cfaa0.png",
+    "static/media/hulkenberg-min.png": "/static/media/hulkenberg-min.a40687ba9c4ca115b030.png",
     "static/media/alyx-min.png": "/static/media/alyx-min.9d4fda6488e76a180275.png",
     "static/media/vertigo-min.jpg": "/static/media/vertigo-min.4d5e3b1e0dd72038ad0d.jpg",
     "static/media/boneworks-min.png": "/static/media/boneworks-min.73a106af2770f511926e.png",
@@ -10,9 +13,6 @@
     "static/media/me.jpg": "/static/media/me.dd26ee35b5e93f497995.jpg",
     "static/media/skyrim-min.png": "/static/media/skyrim-min.92fa37a6c0e7d31063f7.png",
     "static/media/kjolberg.jpg": "/static/media/kjolberg.9b7cfaed0501b385e8c8.jpg",
-    "static/media/alonso-min.png": "/static/media/alonso-min.ffa2597880f671550773.png",
-    "static/media/hulkenberg-min.png": "/static/media/hulkenberg-min.6eea203b1401fd0ddbd6.png",
-    "static/media/norris-min.png": "/static/media/norris-min.b1ab5241bf901fc0864c.png",
     "static/media/iracing-min.png": "/static/media/iracing-min.4dbb33db3281f83d8d33.png",
     "static/media/british-flag-min.png": "/static/media/british-flag-min.2bc4124b6597a6e258aa.png",
     "static/media/wiki-min.png": "/static/media/wiki-min.aba56dfc274326e194eb.png",
@@ -45,12 +45,12 @@
     "static/media/work-education2.svg": "/static/media/work-education2.19c33092e084fff17ec18a0baaa4684d.svg",
     "static/media/header-experience2.svg": "/static/media/header-experience2.c98a5506dfe168fc96930bf35f0d4d08.svg",
     "index.html": "/index.html",
-    "main.bff6e119.css.map": "/static/css/main.bff6e119.css.map",
-    "main.4fd7dec0.js.map": "/static/js/main.4fd7dec0.js.map",
+    "main.f9979c32.css.map": "/static/css/main.f9979c32.css.map",
+    "main.54875cd7.js.map": "/static/js/main.54875cd7.js.map",
     "787.3859b098.chunk.js.map": "/static/js/787.3859b098.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bff6e119.css",
-    "static/js/main.4fd7dec0.js"
+    "static/css/main.f9979c32.css",
+    "static/js/main.54875cd7.js"
   ]
 }
