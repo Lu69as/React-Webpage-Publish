@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f9979c32.css",
-    "main.js": "/static/js/main.54875cd7.js",
+    "main.css": "/static/css/main.7c0d3ec7.css",
+    "main.js": "/static/js/main.da19c55f.js",
     "static/js/787.3859b098.chunk.js": "/static/js/787.3859b098.chunk.js",
     "static/media/alonso-min.png": "/static/media/alonso-min.4092ea34f9a08e721d21.png",
     "static/media/norris-min.png": "/static/media/norris-min.8fbbd0f30979736cfaa0.png",
@@ -15,7 +15,6 @@
     "static/media/kjolberg.jpg": "/static/media/kjolberg.9b7cfaed0501b385e8c8.jpg",
     "static/media/iracing-min.png": "/static/media/iracing-min.4dbb33db3281f83d8d33.png",
     "static/media/british-flag-min.png": "/static/media/british-flag-min.2bc4124b6597a6e258aa.png",
-    "static/media/wiki-min.png": "/static/media/wiki-min.aba56dfc274326e194eb.png",
     "static/media/react-min.png": "/static/media/react-min.ed5433e1e728c9fb9874.png",
     "static/media/glemmen.jpg": "/static/media/glemmen.144c0bf8100786eecd4e.jpg",
     "static/media/mysql-min.png": "/static/media/mysql-min.cb5a84ccb47582d9df06.png",
@@ -45,12 +44,12 @@
     "static/media/work-education2.svg": "/static/media/work-education2.19c33092e084fff17ec18a0baaa4684d.svg",
     "static/media/header-experience2.svg": "/static/media/header-experience2.c98a5506dfe168fc96930bf35f0d4d08.svg",
     "index.html": "/index.html",
-    "main.f9979c32.css.map": "/static/css/main.f9979c32.css.map",
-    "main.54875cd7.js.map": "/static/js/main.54875cd7.js.map",
+    "main.7c0d3ec7.css.map": "/static/css/main.7c0d3ec7.css.map",
+    "main.da19c55f.js.map": "/static/js/main.da19c55f.js.map",
     "787.3859b098.chunk.js.map": "/static/js/787.3859b098.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9979c32.css",
-    "static/js/main.54875cd7.js"
+    "static/css/main.7c0d3ec7.css",
+    "static/js/main.da19c55f.js"
   ]
 }
