@@ -1,6 +1,6 @@
 $color_1: #FCE3EA;
 $color_2: white;
-$color_3: #1C0E12;
+$color_3: rgb(53, 24, 32);
 $color_4: rgb(205, 237, 255);
 $color_5: rgb(255, 183, 124);
 $color_6: rgba(192, 192, 192, 0.2);
@@ -221,23 +221,18 @@ nav {
 }
 .spatter2 {
 	background-image: url("../img/spatter/spatter2.svg");
-	transition: 400ms;
 }
 .spatter1 {
 	background-image: url("../img/spatter/spatter1.svg");
-	transition: 400ms;
 }
 .spatter3 {
 	background-image: url("../img/spatter/spatter3.svg");
-	transition: 400ms;
 }
 .spatter4 {
 	background-image: url("../img/spatter/spatter4.svg");
-	transition: 400ms;
 }
 .spatter5 {
 	background-image: url("../img/spatter/spatter5.svg");
-	transition: 400ms;
 }
 .scrollbar {
 	position: fixed;
@@ -275,14 +270,10 @@ nav {
 	aspect-ratio: 18/1;
 	height: 15vw;
 	z-index: 92;
-	animation-duration: 120s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	animation-name: transitionAni;
 	pointer-events: none;
+	transition: 800ms ease-out;
 	&:nth-child(even) {
 		top: 0;
-		animation-name: transitionAni2;
 	}
 }
 article {
@@ -304,15 +295,9 @@ article {
 	align-items: center;
 	justify-content: center;
 	background-size: cover;
+	background-position: center;
 	overflow-x: hidden;
-	min-height: 100vh;
-	width: 100vw;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	background-size: cover;
-	overflow-x: hidden;
+	transition: 800ms ease-out;
 	section {
 		display: none;
 	}
@@ -324,14 +309,15 @@ article {
 		transform: translateY(-50%);
 		overflow: hidden;
 		.line {
-			background: linear-gradient(to bottom, #FFDACF, #D0F8FD, #FFDACF);
+			background: linear-gradient(to bottom, #F075A0, #C86386, #F075A0);
 			width: 60vw;
 			height: 188px;
 			position: absolute;
 			top: 52px;
-			right: -0.5vw;
+			right: -0.35vw;
 			rotate: -5deg;
-			border: solid 0.2vw black;
+			border: solid 0.2vw #663446;
+			border-right: none;
 			overflow: hidden;
 			p {
 				font-size: 5vw;
@@ -363,7 +349,7 @@ article {
 			width: 8vw;
 			position: absolute;
 			height: 189px;
-			background: black;
+			background: #7E4056;
 			rotate: 30deg;
 			top: -2px;
 			right: -5.2vw;
@@ -500,7 +486,7 @@ article {
 		}
 		li {
 			text-align: center;
-			margin: 5% 15%;
+			margin: 2%;
 			font-size: 1.4vw;
 			list-style: armenian;
 			a {
