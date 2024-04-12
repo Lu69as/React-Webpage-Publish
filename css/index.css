@@ -431,6 +431,10 @@ article:nth-child(even) {
   scale: 1.1;
   transition: 800ms;
 }
+#Experience section .container .icons-container img:active {
+  scale: 1.05;
+  transition: 200ms;
+}
 #Experience .desc {
   position: absolute;
   transition: 1200ms;
@@ -736,6 +740,10 @@ article:nth-child(even) {
   transform: scaleY(0.95);
   box-shadow: 0 1.5vh 20px rgba(0, 0, 0, 0.4);
 }
+#Hobbies .Games .gameList .game:active {
+  scale: .95;
+  transition: 200ms;
+}
 #Hobbies .Games .gameList .game:hover > div {
   height: inherit;
   transition: 800ms;
@@ -943,6 +951,7 @@ article:nth-child(even) {
   background: #693648;
   overflow: hidden;
   cursor: pointer;
+  transition: 200ms;
 }
 #Hobbies .YouTube a p {
   position: absolute;
@@ -960,13 +969,12 @@ article:nth-child(even) {
   animation-timing-function: linear;
 }
 #Hobbies .YouTube a:hover {
-  transition: 400ms;
-  color: transparent;
+  border-radius: 1.25vw;
+  transition: 600ms;
 }
-#Hobbies .YouTube a:hover p {
-  transition: 400ms;
-  transition-delay: 400ms;
-  opacity: 1;
+#Hobbies .YouTube a:active {
+  border-radius: .5vw;
+  transition: 600ms;
 }
 
 footer {

@@ -65,7 +65,7 @@ function typeName() {
 
 window.onload = () => {
   window.onscroll = function() {scroll()};
-  document.querySelector('.load').style.display = 'none';
+  document.querySelector('.load').remove();
   document.querySelector("nav a").addEventListener("click", changebackgrund);
   document.querySelector("#age").innerHTML = user.age;
   changebackgrund();
@@ -112,7 +112,7 @@ window.onload = () => {
   document.querySelectorAll("#Hobbies .game").forEach((e) => {
     e.addEventListener('click', () => {
       document.querySelectorAll("#Hobbies .gameDesc").forEach((x) => {x.style.display = "none"});
-      document.querySelector("." + e.firstChild.getAttribute("alt")).style.display = "block";
+      document.querySelector("." + e.getAttribute("alt")).style.display = "block";
     })
   });
 }
