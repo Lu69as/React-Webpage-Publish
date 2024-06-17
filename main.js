@@ -21,19 +21,14 @@ function scroll() {
 
 function typeName() {
   const h1 = document.querySelector('.App-header h1');
-  const h2 = document.querySelector('.App-header h2');
 
   const name = 'Lukas Okkenhaug';
-  const desc = 'A Creative Fella from Norway';
 
   h1.innerHTML = '';
-  h2.innerHTML = '';
   function nameAppear() {
     for (let i = 0; i < name.length; i++)
       setTimeout(() => { h1.innerHTML += name[i, i]; }, i * 125);
 
-    for (let i = 0; i < desc.length; i++)
-      setTimeout(() => { h2.innerHTML += desc[i, i]; }, (name.length * 150) + (i * 75));
   } nameAppear();
 }
 
@@ -45,6 +40,22 @@ window.onload = () => {
   
   changebackgrund();
   typeName();
+
+  document.querySelectorAll("#Work .window section").forEach((e) => {
+    e.lastElementChild.style.height = "fit-content !important";
+    // e.lastElementChild.style.height = e.lastElementChild.offsetHeight + "px";
+  })
+
+  document.querySelectorAll("#Work .window section").forEach((e) => {
+    e.addEventListener("click", () => {
+      e.lastElementChild.style.height = "fit-content";
+      e.lastElementChild.style.height = e.lastElementChild.offsetHeight + "px";
+    })
+    document.querySelectorAll("#Work .window section").forEach((x) => {
+      // if (x.innerHTML != e.innerHTML)
+        // e.classList.remove("open")
+    })
+  })
 
   document.querySelectorAll('.icons-container img').forEach((e) => {
     e.addEventListener('click', () => {
