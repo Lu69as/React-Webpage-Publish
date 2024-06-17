@@ -235,8 +235,7 @@ header { transition: 800ms; }
 
 article {
 	position: relative;
-	padding-top: 12.5vw;
-	padding-bottom: 16.6666666667vw;
+	padding: 12.5vw 0 16.6666666667vw 0;
 	margin: 0;
 	width: 100vw;
 	overflow-x: hidden;
@@ -519,75 +518,96 @@ article {
 }
 
 #Education {
+	padding: 10vw 0 10vw 0;
+
 	section {
 		.line {
 			position: relative;
 			margin: 10vw;
 			width: 80vw;
-			aspect-ratio: 80/1;
+			aspect-ratio: 160/1;
 			background: white;
+			
 			.endline {
-				height: 5vw;
-				aspect-ratio: 1/5;
-				border-radius: 0.2vw;
+				height: 2vw;
+				aspect-ratio: 1/2;
+				border-radius: 9em;
 				position: absolute;
 				background: white;
-				top: -2vw;
-				transition: 800ms;
-				transition-delay: 2s;
+				top: -.75vw;
 				box-shadow: 79vw 0 white;
 			}
-			&:hover {
-				.endline {
-					margin-left: -1vw;
-					box-shadow: 81vw 0 white;
-					transition: 400ms;
-				}
-			}
-			.school {
+
+			.schools {
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				gap: 7%;
 				position: absolute;
-				left: 10%;
-				img {
-					position: absolute;
-					width: 10vw;
-					overflow: hidden;
-					top: -10vw;
-					left: 2.5vw;
-					scale: 1.0001;
-					border-radius: 0.5vw;
-					box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.4);
-					transition: 400ms;
-				}
-				h1 {
-					position: absolute;
-					width: 15vw;
-					top: 5vw;
-					scale: 1.000001;
-					color: #FCE3EA;
-					font-size: 1.2vw;
-				}
-				&:nth-child(odd) {
-					img {
-						top: 5vw;
-					}
+				top: 50%;
+				transform: translateY(-50%);
+
+				.school {
+					position: relative;
+					display: flex;
+					flex-direction: column;
+					align-items: left;
+					width: 12.5vw;
+
 					h1 {
-						top: -10vw;
+						font-size: 1.4vw;
+						color: white;
+						text-align: left;
+						margin: 0;
+						width: 100%;
+						position: absolute;
+						left: 10px;
+
+						&:first-child{
+							position: absolute;
+							top: -0px;
+							transition: 400ms;
+							
+
+							&::after {
+								content: " ➜ ";
+							}
+						}
+						&:last-child {
+							bottom: 10px;
+							transition: 400ms;
+						}
 					}
-				}
-				&:nth-child(3) {
-					left: 30%;
-				}
-				&:nth-child(4) {
-					left: 50%;
-				}
-				&:nth-child(5) {
-					left: 75%;
-				}
-				&:hover {
+					div {
+						width: 100%;
+						aspect-ratio: 1.5 / 1;
+						border-radius: 0.5vw;
+						text-align: center;
+						background: rgba(0, 0, 0, 0.6);
+						backdrop-filter: blur(10px);
+						transition: 400ms;
+					}
 					img {
-						scale: 1.1;
-						transition: 1200ms;
-						box-shadow: 0 0 50px 20px rgba(0, 0, 0, 0.3);
+						width: 100%;
+						aspect-ratio: 1.5 / 1;
+						border-radius: 0.5vw;
+						box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.2);
+						position: absolute;
+					}
+
+					&:hover {
+						h1 {
+							&:first-child{
+								top: -35px;
+							}
+							&:last-child {
+								bottom: -70px;
+							}
+						}
+						div {
+							opacity: 0;
+							transition: 800ms;
+						}
 					}
 				}
 			}
