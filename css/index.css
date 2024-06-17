@@ -559,9 +559,9 @@ article {
 						color: white;
 						text-align: left;
 						margin: 0;
-						width: 100%;
+						width: calc(100% - 20px);
 						position: absolute;
-						left: 10px;
+						padding: 0 10px;
 
 						&:first-child{
 							position: absolute;
